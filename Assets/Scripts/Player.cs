@@ -5,6 +5,7 @@ using System.Collections;
 public class Player : MonoBehaviour {
 
 	public float WalkSpeed = 2.0f;
+	public GameObject BloodParticlePrefab;
 
 	private Animator animator;
 	private HealthSystem healthSystem;
@@ -31,7 +32,7 @@ public class Player : MonoBehaviour {
 	}
 
 	void OnTakeDamage(int amount) {
-		Debug.Log ("Took " + amount + " damage, I now have " + healthSystem.Health + " HP left");
+		Instantiate (BloodParticlePrefab, transform.position, Quaternion.identity);
 	}
 
 	void OnDeath() {

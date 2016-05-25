@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 246cd2d33cd02ef458193046b1ba1248
-timeCreated: 1464093479
+timeCreated: 1464183112
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -19,7 +19,7 @@ TextureImporter:
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -73,9 +73,11 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 18}
-        - {x: -16, y: -18}
-        - {x: 15, y: -18}
+      - - {x: -15, y: 18}
+        - {x: -15, y: -15}
+        - {x: -10, y: -18}
+        - {x: 13, y: -18}
+        - {x: 15, y: -17}
         - {x: 15, y: 10}
         - {x: 12, y: 18}
     - name: warrior_m_1
@@ -91,11 +93,10 @@ TextureImporter:
       outline:
       - - {x: -15, y: 18}
         - {x: -15, y: -18}
-        - {x: 13, y: -18}
-        - {x: 16, y: -17}
+        - {x: 16, y: -18}
         - {x: 16, y: 11}
-        - {x: 14, y: 15}
-        - {x: 10, y: 18}
+        - {x: 15, y: 15}
+        - {x: 11, y: 18}
     - name: warrior_m_2
       rect:
         serializedVersion: 2
@@ -127,10 +128,6 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -13, y: -18}
-        - {x: -13, y: 18}
-        - {x: -16, y: 18}
-        - {x: -16, y: -18}
       - - {x: -11, y: 18}
         - {x: -13, y: 11}
         - {x: -13, y: -17}
@@ -184,9 +181,11 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 18}
-        - {x: -16, y: -18}
-        - {x: 15, y: -18}
+      - - {x: -15, y: 18}
+        - {x: -15, y: -15}
+        - {x: -10, y: -18}
+        - {x: 13, y: -18}
+        - {x: 15, y: -17}
         - {x: 15, y: 10}
         - {x: 12, y: 18}
     - name: warrior_m_7
@@ -237,11 +236,12 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 18}
-        - {x: -16, y: -18}
+      - - {x: -15, y: 18}
+        - {x: -15, y: -14}
+        - {x: -14, y: -18}
         - {x: 13, y: -18}
         - {x: 13, y: 16}
-        - {x: 10, y: 18}
+        - {x: 9, y: 18}
     - name: warrior_m_10
       rect:
         serializedVersion: 2
